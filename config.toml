@@ -651,7 +651,7 @@ hasCJKLanguage = true
 
   # FixIt 0.2.7 | NEW Cookie consent config
   [params.cookieconsent]
-    enable = true
+    enable = false
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
       message = ""
