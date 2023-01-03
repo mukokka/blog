@@ -6,6 +6,7 @@ toc: true
 images:
 categories: ["记忆面包机"]
 textIndent: false
+url: "/post/diary/2211"
 ---
 
 真的起不出标题了，想不到现在还是像高中写作文一样，写完全文回来写标题——但是又不一样啊，现在人家不想写写不出来就不写了嘛！
