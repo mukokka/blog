@@ -43,6 +43,7 @@ hasCJKLanguage = true
 # -------------------------------------------------------------------------------------
 
 [params]
+  enableCarousel = true 
   # FixIt 0.2.15 | CHANGED FixIt theme version
   version = "0.2.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
   # site description
