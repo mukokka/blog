@@ -78,7 +78,7 @@ other = "切换主题"
 
 # === partials/footer.html ===
 [poweredBySome]
-other = "由 {{ .Hugo }} 强力驱动 | 主题 - {{ .Theme }}"
+other = "由 {{ .Hugo }} 驱动 | 主题 - {{ .Theme }}"
 
 [siteUV]
 other = "总访客数"
@@ -158,10 +158,10 @@ other = "目录"
 other = "转载"
 
 [publishedOnDate]
-other = "发布于 {{ .Date }}"
+other = " {{ .Date }}"
 
 [includedInCategories]
-other = "收录于 {{ .Categories }}"
+other = " {{ .Categories }}"
 
 [wordCount]
 other = "约 {{ .Count }} 字"

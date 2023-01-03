@@ -1,0 +1,92 @@
+{{- if ne .Site.Params.footer.enable false -}}
+  <footer class="footer">
+    <div class="footer-container">
+      {{- /* Custom Content */ -}}
+      {{- with .Site.Params.footer.custom -}}
+        <div class="footer-line custom">
+          {{- safeHTML . -}}
+        </div>
+      {{- end -}}
+
+      {{- /* Hugo and FixIt */ -}}
+      {{- if ne .Site.Params.footer.hugo false -}}
+        <div class="footer-line powered">
+          {{- $hugo := printf `<a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo %v">Hugo</a>` hugo.Version -}}
+          {{- $theme := printf `<a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt %v">FixIt</a>`
+            .RelPermalink
+          -}}
+          {{- dict "Hugo" $hugo "Theme" $theme | T "poweredBySome" | safeHTML }}
+        </div>
+      {{- end -}}
+
+      {{- if .Site.Params.footer.copyright | or .Site.Params.footer.author | or .Site.Params.footer.license -}}
+      <div class="footer-line copyright{{ with .Site.Params.footer.order.copyright }} order-{{ . }}{{ end }}" itemscope itemtype="http://schema.org/CreativeWork">    
+
+        <span class="copyright-year">
+          {{- $current := now.Format "2006" }}
+          {{ dict "Class" "fa-regular fa-copyright fa-fw" | partial "plugin/icon.html" }}
+          已运行 <SPAN id=span_dt_dt ></SPAN>
+          <SCRIPT language=javascript>
+          function show_date_time(){
+          window.setTimeout("show_date_time()", 1000);
+          BirthDay=new Date("5/2/2022");
+          today=new Date();
+          timeold=(today.getTime()-BirthDay.getTime());
+          sectimeold=timeold/1000
+          secondsold=Math.floor(sectimeold);
+          msPerDay=24*60*60*1000
+          e_daysold=timeold/msPerDay
+          daysold=Math.floor(e_daysold);
+          e_hrsold=(e_daysold-daysold)*24;
+          hrsold=Math.floor(e_hrsold);
+          e_minsold=(e_hrsold-hrsold)*60;
+          minsold=Math.floor((e_hrsold-hrsold)*60);
+          seconds=Math.floor((e_minsold-minsold)*60);
+          span_dt_dt.innerHTML=""+daysold+" 天";
+          }
+          show_date_time();
+          </SCRIPT> 
+
+    {{- end -}}
+
+      {{- if .Site.Params.footer.siteTime | or .Site.Params.footer.wordCount -}}
+        <div class="footer-line statistics">
+          {{- if .Site.Params.footer.siteTime -}}
+            <span class="site-time" title='{{ T "siteRunning" }}'>
+              {{- dict "Class" "fa-solid fa-heartbeat fa-fw animate-icon" | partial "plugin/icon.html" -}}&nbsp;
+              {{- printf `<span class="run-times">%v</span>` (T "siteRunning") | safeHTML -}}
+            </span>
+          {{- end -}}
+        </div>
+      {{- end -}}
+
+      {{- /* 不蒜子 */ -}}
+      {{- if eq .Site.Params.ibruce.enable true -}}
+        {{- $loading := dict "Class" "fa-solid fa-spinner fa-spin fa-fw" | partial "plugin/icon.html" -}}
+        <div class="footer-line ibruce">
+          <span id="busuanzi_container_site_uv" title='{{ T "siteUV" }}'>
+            {{- dict "Class" "fa-regular fa-user fa-fw" | partial "plugin/icon.html" -}}&nbsp;<span id="busuanzi_value_site_uv">{{ $loading }}</span>{{- /* NO_SPACING */ -}}
+          </span>
+          {{- /* NO_SPACING */ -}}
+          <span id="busuanzi_container_site_pv" class="footer-divider" title='{{ T "sitePV" }}'>
+            {{- dict "Class" "fa-regular fa-eye fa-fw" | partial "plugin/icon.html" -}}&nbsp;<span id="busuanzi_value_site_pv">{{ $loading }}</span>{{- /* NO_SPACING */ -}}
+          </span>
+        </div>
+      {{- end -}}
+      
+      {{- if .Site.Params.footer.gov | or .Site.Params.footer.icp -}}
+        <div class="footer-line beian">
+          {{- /* GOV */ -}}
+          {{- with .Site.Params.footer.gov -}}
+            <span class="gov">{{ . | safeHTML }}</span>
+          {{- end -}}
+
+          {{- /* ICP */ -}}
+          {{- with .Site.Params.footer.icp -}}
+            <span class="icp footer-divider">{{ . | safeHTML }}</span>
+          {{- end -}}
+        </div>
+      {{- end -}}
+    </div>
+  </footer>
+{{- end -}}
