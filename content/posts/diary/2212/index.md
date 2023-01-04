@@ -8,6 +8,9 @@ categories: ["记忆面包机"]
 lightgallery: true
 ---
 
+{{< music url="/music/breathe.mp3" name=BREATHE artist=AB6IX cover="/images/breathe.jpg" >}}
+
+<!--这些是注释文本，不会显示
 {{< spotify type="track" id="4XbyRgWe6yU4wE6WShdTEs" width="350" height="100" >}}
 
 > 新年又给博客加上了spotify短代码！
@@ -23,7 +26,7 @@ lightgallery: true
 > {{< carousel "images/1.png,images/2.png">}}
 > 
 > **pppp.s.** 22：52更新：研究发现不是部署的问题，只是我在预览用的浏览器登录过spotify才会正常播放的（那要怎么办啊 小编总不能下载下来本地导入吧 就是这个红封面很喜庆才想要用的啊（兜兜转转这个短代码也成摆设了 抹泪离开
-
+-->
 ## 先做一个最近总结
 
 其实我的寒假按理来说可以回家的时间只有两周，但这两年在“防疫要求”下总是多放了几周。本来这几天应该还在学校做实验呢，结果倒在家里的床上看404。唉说到404我就生气，我这个人真的不应该看选秀，2022年了还会因为海南米没进决赛哭……而且好像恰逢星球男孩要开播，404也在我b站首页还魂，本来都是我在考古的，突然多了好多人考给我看……
