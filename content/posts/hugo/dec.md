@@ -46,5 +46,4 @@ lastmod: 2023-01-02
         src: url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&family=Noto+Serif+SC&display=swap');
       }
     ```
-  - 其实不这么麻烦也行，SC的韩文很违和，KR的中文丑的很可爱
 - [ ] 在归档页加上分类
