@@ -22,7 +22,7 @@ hasCJKLanguage = true
       icon = "fa-solid fa-th"
   [[menu.main]]
     name = "书架"
-    url = "https://iceco.vercel.app/#/"
+    url = "https://docs.iceco.icu/#/"
     title = ""
     weight = 30
     [menu.main.params]
