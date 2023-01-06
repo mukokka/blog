@@ -23,7 +23,7 @@ subtitle:
 ## 欢迎和我交换友链><¡
 > 名称：Muko
 >
-> 地址：hugo-mukokka.vercel.app
+> 地址：iceca.vercel.app
 >
 > 头像：iceco.icu/avater.png
 >
