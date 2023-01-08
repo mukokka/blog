@@ -232,6 +232,10 @@
     {{- /* Twikoo Comment System */ -}}
     {{- $twikoo := $comment.twikoo | default dict -}}
     {{- if $twikoo.enable -}}
+      <div class="pagination__title">
+        <span class="pagination__title-h" style="font-size: 12px;">💬twikoo后台会显示您的邮箱！介意的朋友请留下虚假邮箱，p.s. 博主24小时回复率99%</span>
+        <hr />
+    </div>
       <div id="twikoo"></div>
       {{- $source := $cdn.twikooJS | default "lib/twikoo/twikoo.all.min.js" -}}
       {{- dict "Source" $source "Fingerprint" $fingerprint "Defer" true | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
