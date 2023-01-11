@@ -18,7 +18,7 @@ subtitle:
 
 {{< friend name="咖喱" url="https://joysblog.vercel.app/" logo="https://joysblog.vercel.app/icons/apple-touch-icon.png" word="即使埋藏在内心也没关系。">}}
 
-{{< friend name="呆呆不是槑" url="https://clear0804.vercel.app/" logo="https://clear0804.vercel.app/avatar.png" word="梦想是实现旺仔牛奶自由">}}
+{{< friend name="呆呆不是槑" url="http://graugris.icu/" logo="graugris.icu/avatar.png" word="梦想是实现旺仔牛奶自由">}}
 
 ## 欢迎和我交换友链><¡
 > 名称：Muko
