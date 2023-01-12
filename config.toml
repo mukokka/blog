@@ -475,10 +475,15 @@ hasCJKLanguage = true
         commentCount = true # FixIt 0.2.13 | NEW
       # FixIt 0.2.16 | CHANGED Waline comment config (https://waline.js.org)
       [params.page.comment.waline]
-        enable = false
-        serverURL = ""
+        enable = true
+        serverURL = "https://waline-moko.vercel.app"
         pageview = false # FixIt 0.2.15 | NEW
-        emoji = ["//unpkg.com/@waline/emojis@1.1.0/weibo"]
+        emoji = ["https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs",
+            "https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif",
+            "https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png",
+            "https://unpkg.com/@waline/emojis@1.1.0/tw-emoji",
+            "https://unpkg.com/@waline/emojis@1.1.0/alus",
+            "https://unpkg.com/@waline/emojis@1.1.0/tieba"]
         meta = ["nick", "mail", "link"]
         requiredMeta = []
         login = "enable"
@@ -522,7 +527,7 @@ hasCJKLanguage = true
       # FixIt 0.2.13 | NEW Twikoo comment config (https://twikoo.js.org/)
 
       [params.page.comment.twikoo]
-        enable = true
+        enable = false
         envId = "https://twikoo-seven-phi.vercel.app/"
         region = ""
         path = "window.TWIKOO_MAGIC_PATH||window.location.pathname"
