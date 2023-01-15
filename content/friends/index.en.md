@@ -25,7 +25,7 @@ subtitle:
 >
 > 地址：iceca.vercel.app
 >
-> 头像：iceco.icu/avater.png
+> 头像：iceca.vercel.app/avater.png
 >
 > 简介：我以前没得选，现在我想做个绝望的文盲。
 
