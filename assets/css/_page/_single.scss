@@ -132,7 +132,7 @@
     > h6 {
       > .header-mark::before {
         content: '-';
-        margin-right: 0.1375rem;
+        margin-right: 0.3125rem;
         color: $single-link-color;
 
         [data-theme='dark'] & {
@@ -310,7 +310,7 @@
 
     blockquote {
       background: rgba(235, 236, 237, 0.3);
-      border-left: 5px solid #A0C3D2;
+      border-left: 5px solid rgb(59, 120, 185);
       border-radius: 5px;
       margin: 0.5rem 0;
       padding: 0.1em 1em;
@@ -328,7 +328,7 @@
       [data-theme='dark'] & {
         color: $blockquote-color-dark;
         background: rgba(8, 8, 8, 0.3);
-        border-left-color: rgba(230, 221, 221, 0.3);
+        border-left-color: rgb(57, 131, 183);
       }
 
       @include link(false, true);
