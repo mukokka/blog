@@ -41,7 +41,7 @@ lightgallery: true
 
 2022年初的时候我跟着[A-Hong](https://www.youtube.com/@ahong_paperlog)这个博主做paperlog，虽然paperlog没坚持下来但是在模板中写下了wish list（其实都没有写满）。
 
-- [ ] topik 6 
+- [ ] topik 6
   - 我想这不能怪我没有完成……虽然考也大概率考不到六级，但毕竟考点取消了不是吗ㅠㅠ
 - [x] 剪3个视频
   - 该怎么衡量这个指标呢？因为我定下这个计划的时候，想的肯定是用pr的剪辑。但今年用pr剪的视频只剪了两个——用aegisub打了轴的视频有六个，六个视频加起来打了2883行轴呢……（勉强打上勾

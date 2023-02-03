@@ -131,8 +131,8 @@
     > h5,
     > h6 {
       > .header-mark::before {
-        content: '|';
-        margin-right: 0.3125rem;
+        content: '-';
+        margin-right: 0.1375rem;
         color: $single-link-color;
 
         [data-theme='dark'] & {
@@ -309,11 +309,16 @@
     }
 
     blockquote {
+      background: rgba(235, 236, 237, 0.3);
+      border-left: 5px solid #A0C3D2;
+      border-radius: 5px;
+      margin: 0.5rem 0;
+      padding: 0.1em 1em;
+      font-size: 1em;
       display: block;
-      border-left: 0.25em solid $global-border-color;
-      color: $blockquote-color;
-      padding: 0 1em;
-      margin: 1rem 0;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-end: 40px;
 
       ul,
       ol {
@@ -322,7 +327,8 @@
 
       [data-theme='dark'] & {
         color: $blockquote-color-dark;
-        border-left-color: $global-border-color-dark;
+        background: rgba(8, 8, 8, 0.3);
+        border-left-color: rgba(230, 221, 221, 0.3);
       }
 
       @include link(false, true);
