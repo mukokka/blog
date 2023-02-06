@@ -198,7 +198,7 @@ hasCJKLanguage = true
       # FixIt 0.2.7 | CHANGED title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page
-      subtitle = "嗨！新年快乐！新年快乐！"
+      subtitle = ""
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
