@@ -6,20 +6,14 @@ theme = "FixIt-0.2.16"
 hasCJKLanguage = true
 
 [menu]
+
   [[menu.main]]
     name = "归档"
-    url = "/posts/"
-    title = ""
-    weight = 10
-    [menu.main.params]
-      icon = "fa-solid fa-archive"
-  [[menu.main]]
-    name = "分类"
     url = "/categories/"
     title = ""
     weight = 20
     [menu.main.params]
-      icon = "fa-solid fa-th"
+      icon = "fa-solid fa-archive"
   [[menu.main]]
     name = "书架"
     url = "https://docs.iceco.icu/#/"
@@ -209,7 +203,7 @@ hasCJKLanguage = true
     [params.home.posts]
       enable = true
       # special amount of posts in each home posts page
-      paginate = 6
+      paginate = 100
 
   # FixIt 0.2.16 | CHANGED Social config about the author
   [params.social]
