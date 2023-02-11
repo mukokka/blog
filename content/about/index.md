@@ -11,7 +11,7 @@ comment: false
 {{< /center-quote-copy>}}
 
 {{< style "text-align:right" >}}
-——**《地下室手记》**
+——《地下室手记》
 {{< /style >}}
 
 ---
