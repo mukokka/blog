@@ -3,7 +3,6 @@ title: ""
 subtitle:
 
 ---
-
 ## 我的网络邻居
 
 {{< friend name="小球飞鱼" url="https://mantyke.icu/" logo="images/mantyke.png" word="我们会一起遇见鲸鱼吗">}}
@@ -20,6 +19,7 @@ subtitle:
 
 {{< friend name="呆呆不是槑" url="http://graugris.icu/" logo="https://graugris.icu/avatar.png" word="梦想是实现旺仔牛奶自由">}}
 
+<!--
 ## 欢迎和我交换友链><¡
 > 名称：Muko
 >
@@ -28,5 +28,19 @@ subtitle:
 > 头像：iceca.vercel.app/avater.png
 >
 > 简介：我以前没得选，现在我想做个绝望的文盲。
+
+-->
+
+{{< admonition quote "欢迎和我交换友链><¡" true >}}
+
+名称：Muko
+
+地址：iceca.vercel.app
+
+头像：iceca.vercel.app/avater.png
+
+简介：我以前没得选，现在我想做个绝望的文盲。
+
+{{< /admonition >}}
 
 ---

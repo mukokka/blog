@@ -6,7 +6,13 @@ theme = "FixIt-0.2.16"
 hasCJKLanguage = true
 
 [menu]
-
+  [[menu.main]]
+    name = "关于"
+    url = "/about/"
+    title = ""
+    weight = 10
+    [menu.main.params]
+      icon = "fa-solid fa-cookie-bite fa-fw"
   [[menu.main]]
     name = "归档"
     url = "/categories/"
@@ -209,7 +215,7 @@ hasCJKLanguage = true
   [params.social]
     GitHub = ""
     Linkedin = ""
-    Twitter = "https://twitter.com/li_uxh"
+    Twitter = ""
     Instagram = ""
     Facebook = ""
     Telegram = ""
@@ -267,7 +273,7 @@ hasCJKLanguage = true
     Devto = ""
     Gitea = ""
     XMPP = ""
-    Matrix = "https://matrix.to/#/@dajugo:bgme.me"
+    Matrix = ""
     Bilibili = ""
     ORCID = ""
     Liberapay = ""
@@ -291,7 +297,7 @@ hasCJKLanguage = true
     TryHackMe = ""
     Phone = ""
     Email = ""
-    RSS = true
+    RSS = false
 
   # FixIt 0.2.0 | CHANGED Page config
   [params.page]
@@ -316,7 +322,7 @@ hasCJKLanguage = true
     # FixIt 0.2.4 | NEW whether to show the full text content in RSS
     rssFullText = false
     # FixIt 0.2.13 | NEW Page style ["narrow", "normal", "wide", ...]
-    pageStyle = "normal"
+    pageStyle = "narrow"
     # FixIt 0.2.14 | NEW Gravatar is force-used as the author's avatar
     gravatarForce = false
     # FixIt 0.2.15 | NEW Repost config
@@ -448,15 +454,15 @@ hasCJKLanguage = true
       # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = false
-        appId = ""
-        appKey = ""
+        appId = "QpN3gSbk0nTgR7lVqKff0nuC-MdYXbMMI"
+        appKey = "6r8SNg3BRoVYYJdvtNoiFG0k"
         placeholder = ""
-        avatar = "mp"
+        avatar = "robohash"
         meta= ""
         pageSize = 10
         lang = ""
         visitor = true
-        recordIP = true
+        recordIP = false
         highlight = true
         enableQQ = false
         serverURLs = ""
@@ -476,15 +482,14 @@ hasCJKLanguage = true
             "https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif",
             "https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png",
             "https://unpkg.com/@waline/emojis@1.1.0/tw-emoji",
-            "https://unpkg.com/@waline/emojis@1.1.0/alus",
-            "https://unpkg.com/@waline/emojis@1.1.0/tieba"]
+            "https://unpkg.com/@waline/emojis@1.1.0/alus"]
         meta = ["nick", "mail", "link"]
         requiredMeta = []
         login = "enable"
         wordLimit = 0
         pageSize = 10
-        imageUploader = false # FixIt 0.2.15 | NEW
-        highlighter = false # FixIt 0.2.15 | NEW
+        imageUploader = true # FixIt 0.2.15 | NEW
+        highlighter = true # FixIt 0.2.15 | NEW
         comment = false # FixIt 0.2.15 | NEW
         texRenderer = false # FixIt 0.2.16 | NEW
         search = false # FixIt 0.2.16 | NEW
