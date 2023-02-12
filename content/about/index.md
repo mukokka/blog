@@ -1,7 +1,7 @@
 ---
 title: ""
 subtitle:
-lightgallery: true
+lightgallery: false
 date: 2023-02-11
 comment: false
 ---
