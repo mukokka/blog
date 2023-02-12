@@ -126,6 +126,7 @@
       </div>
     </div>
 
+    <!--
     {{- /* Featured image */ -}}
     {{- $image := $params.featuredimage -}}
     {{- with .Resources.GetMatch "featured-image" -}}
@@ -136,7 +137,7 @@
         {{- dict "Src" . "Title" $.Description "Resources" $.Resources | partial "plugin/image.html" -}}
       </div>
     {{- end -}}
-
+    -->
     {{- /* Static TOC */ -}}
     {{- if (ne $toc.enable false) | and (ne $tocEmpty true) -}}
       <div class="details toc{{ with $params.password }} d-none{{ end }}" id="toc-static" data-kept="{{ if $toc.keepStatic }}true{{ else }}false{{ end }}">

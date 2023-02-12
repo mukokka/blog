@@ -44,7 +44,7 @@ comment: false
 
 - 一图以蔽之：
   
-  ![ixxp实习刺客](images/profile.PNG " ")
+  ![ixxp实习刺客](images/profile.JPG " ")
 
 - 欢迎您的漂流瓶：
   - {{< link "https://matrix.to/#/@dajugo:bgme.me" Matrix>}}

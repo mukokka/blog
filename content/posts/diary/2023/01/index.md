@@ -11,7 +11,10 @@ lightgallery: true
 
 {{< music url="/music/Always.mp3" name=Always artist=PRODUCE_101 cover="/images/always.jpg" >}}
 
-<!-- -->
+<!--resources:
+- name: "featured-image"
+  src: "featured-image.png"
+-->
 
 ## 博客装修
 
