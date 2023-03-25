@@ -19,6 +19,9 @@ subtitle:
 
 {{< friend name="呆呆不是槑" url="http://graugris.icu/" logo="https://graugris.icu/avatar.png" word="梦想是实现旺仔牛奶自由">}}
 
+{{< friend name="昼河万里" url="https://tothemoonriver.icu/" logo="https://tothemoonriver.icu/img/avatar_hu1f7fd3bb10d1d6e480fe680f98f799d1_738451_300x0_resize_box_3.png" word="一起去看月亮吧">}}
+
+
 <!--
 ## 欢迎和我交换友链><¡
 > 名称：Muko
