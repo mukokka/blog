@@ -9,7 +9,7 @@ subtitle:
 
 {{< friend name="Missing不想睡" url="https://hugo-missingid.vercel.app/" logo="https://hugo-missingid.vercel.app/img/avatar.jpg" word="和我一起做赛博宵夜吧!">}}
 
-{{< friend name="チョウ" url="https://changingmoments.vercel.app/" logo="https://changingmoments.vercel.app/images/avatar.jpg" word="就在此刻，改变时刻">}}
+{{< friend name="チョウ" url="https://changingmoments.one" logo="https://changingmoments.one/images/avatar.jpg" word="就在此刻，改变时刻">}}
 
 {{< friend name="Mengru" url="https://mengru.space/" logo="https://mengru.space/pages/avatar.png" word="Mengru在互联网上的小小角落。">}}
 
