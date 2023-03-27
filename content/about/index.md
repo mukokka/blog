@@ -48,7 +48,6 @@ comment: false
 
 - 欢迎您的漂流瓶：
   - {{< link "https://matrix.to/#/@dajugo:bgme.me" Matrix>}}
-  - {{< link "https://twitter.com/li_uxh" Twitter>}}
   
 ---
 {{< style "text-align:right; strong{color:#707077;}" >}}
