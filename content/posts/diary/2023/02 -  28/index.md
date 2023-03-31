@@ -10,12 +10,6 @@ resources:
   src: "images/featured-image.JPG"
 ---
 
-<!--
-{{< carousel "images/cat3.jpg,images/cat2.jpg,images/cat1.jpg" >}}
-
-
--->
-
 ……总之虽然我24号说要努力工作了，但27号突然就决定第二天去香港。
 
 ## WARNING⚠️

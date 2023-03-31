@@ -3,55 +3,55 @@
 {{- $files := readDir (print "/static/" .) }}
 <div class="gallery-photos">
   {{- range (sort $files "Name" "asc") -}}
-    {{- if ( .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)") }}
+    {{- if ( .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl|JPG|PNG)") }}
     {{- $linkURL := print $baseURL "/" ($.Get 0) "/" .Name | absURL }}
     <div class="gallery-photo">
       <img class="photo-img" loading='lazy' decoding="async" src="{{  $linkURL  }}" alt="{{ .Name }}" />
       <span class="photo-title">{{ .Name | replaceRE "\\..*" ""}}</span>
-    </div>
+    </div>  
     {{- end }}
   {{- end }}
-</div>
-  
-<script src="https://immmmm.com/waterfall.min.js"></script>
-<script src="https://immmmm.com/imgStatus.min.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  //外链 gallery 标签相册瀑布流
-  var photosAll = document.getElementsByTagName('gallery') || '';
-  if(photosAll){
-    for(var i=0;i < photosAll.length;i++){
-      photosAll[i].innerHTML = '<div class="gallery-photos">'+photosAll[i].innerHTML+'</div>'
-      var photosIMG = photosAll[i].getElementsByTagName('img')
-      for(var j=0;j < photosIMG.length;j++){
-        wrap(photosIMG[j], document.createElement('div'));
-      }
-    }
-  }
-  function wrap(el, wrapper) {
-    wrapper.className = "gallery-photo";
-    el.parentNode.insertBefore(wrapper, el);
-    wrapper.appendChild(el);
-  }
-  //相册瀑布流
-  let galleryPhotos = document.querySelectorAll('.gallery-photos') || ''
-  if(galleryPhotos){
-    imgStatus.watch('.gallery-photo img', function(imgs) {
-      if(imgs.isDone()){
-        for(var i=0;i < galleryPhotos.length;i++){
-          waterfall(galleryPhotos[i]);
-          let pagePhoto = galleryPhotos[i].querySelectorAll('.gallery-photo');
-          for(var j=0;j < pagePhoto.length;j++){pagePhoto[j].className += " visible"};
+
+  <script src="https://immmmm.com/waterfall.min.js"></script>
+    <script src="https://immmmm.com/imgStatus.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      //外链 gallery 标签相册瀑布流
+      var photosAll = document.getElementsByTagName('gallery') || '';
+      if(photosAll){
+        for(var i=0;i < photosAll.length;i++){
+          photosAll[i].innerHTML = '<div class="gallery-photos">'+photosAll[i].innerHTML+'</div>'
+          var photosIMG = photosAll[i].getElementsByTagName('img')
+          for(var j=0;j < photosIMG.length;j++){
+            wrap(photosIMG[j], document.createElement('div'));
+          }
         }
       }
-    });
-    window.addEventListener('resize', function () {
-      for(var i=0;i < galleryPhotos.length;i++){
-        waterfall(galleryPhotos[i]);
+      function wrap(el, wrapper) {
+        wrapper.className = "gallery-photo";
+        el.parentNode.insertBefore(wrapper, el);
+        wrapper.appendChild(el);
+      }
+      //相册瀑布流
+      let galleryPhotos = document.querySelectorAll('.gallery-photos') || ''
+      if(galleryPhotos){
+        imgStatus.watch('.gallery-photo img', function(imgs) {
+          if(imgs.isDone()){
+            for(var i=0;i < galleryPhotos.length;i++){
+              waterfall(galleryPhotos[i]);
+              let pagePhoto = galleryPhotos[i].querySelectorAll('.gallery-photo');
+              for(var j=0;j < pagePhoto.length;j++){pagePhoto[j].className += " visible"};
+            }
+          }
+        });
+        window.addEventListener('resize', function () {
+          for(var i=0;i < galleryPhotos.length;i++){
+            waterfall(galleryPhotos[i]);
+          }
+        });
       }
     });
-  }
-});
-</script>
+    </script>
 
+</div>
 {{- end }}
