@@ -11,10 +11,6 @@ lightgallery: true
 
 BTW：电脑端如果乱码的话或许需要缩放一下页面……
 
-OMG，不知道为什么部署后图裂了。。本地预览明明是这样。。。施工中。。。
-
-![](images/error.png)
-
 ## 汕头
 
 {{< gallery "images/2303/shantou">}}
