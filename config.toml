@@ -22,7 +22,7 @@ hasCJKLanguage = true
       icon = "fa-solid fa-archive"
   [[menu.main]]
     name = "书架"
-    url = "https://docs.iceco.icu/#/"
+    url = "https://docs.iceco.icu/#/read/list"
     title = ""
     weight = 30
     [menu.main.params]
