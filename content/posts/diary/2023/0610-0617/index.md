@@ -77,7 +77,7 @@ lightgallery: true
 
 > 正在寻找从6月10日开始重新活着的方法，知情者请与我联系，谢谢。
 > 
-> 6월10일부터 다시 살 방법을 찾고 있어요. 아시는 분 꼭 연락주시기 바랍니다.감사합니다.
+> 6월10일부터 다시 살 방법을 찾고 있습니다. 아시는 분 꼭 연락주시기 바랍니다.감사합니다.
 >
 > I am looking for a way to live again from June 10th. If you know it, please contact me.
 
