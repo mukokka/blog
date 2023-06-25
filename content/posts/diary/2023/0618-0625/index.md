@@ -1,6 +1,6 @@
 ---
 title: "东九区周记#2丨我想我在寻找另一种方式生活"
-date: 2023-06-24
+date: 2023-06-25
 draft: false
 toc: true
 categories: ["记忆面包机"]
