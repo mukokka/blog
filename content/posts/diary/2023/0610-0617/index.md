@@ -1,5 +1,5 @@
 ---
-title: "东九区周记一则丨매일 매일 감동 받았어요ㅠ"
+title: "周记#1丨매일 매일 감동 받았어요ㅠ"
 date: 2023-06-17
 draft: false
 toc: true
