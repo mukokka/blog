@@ -1,5 +1,5 @@
 ---
-title: "周记 #5-7丨在充实中感受虚无"
+title: "周记 #5-7丨横扫活力做回尸体"
 date: 2023-07-30
 draft: false
 toc: true
