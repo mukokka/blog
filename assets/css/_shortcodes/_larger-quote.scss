@@ -1,12 +1,12 @@
-.blockquote-center-copy {
+.blockquote-center-larger {
   border-left: none;
-  margin: 20px 0;
-  padding: 20px;
+  margin: 10px 0;
+  padding:5px;
   position: relative;
   text-align: center;
   color: initial;
+  font-size: 1.125rem;
   background:none;
-  width: 94%;
   [data-theme='dark'] & {
     border-top-color: $global-border-color-dark;
     background:none;
@@ -22,10 +22,10 @@
   }
 
   &::before {
-    border-top: 1px solid $global-border-color;
+    border-top: 0px solid $global-border-color;
     text-align: left;
-    top: -20px;
-    content: '\f10d';
+    top: 0px;
+    content: '';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
 
@@ -35,10 +35,10 @@
   }
 
   &::after {
-    border-bottom: 0px solid $global-border-color;
+    border-bottom: 1px solid $global-border-color;
     bottom: -0px;
     text-align: right;
-    content: '\f10e';
+    content: '';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
 
