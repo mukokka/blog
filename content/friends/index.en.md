@@ -9,7 +9,7 @@ subtitle:
 
 {{< friend name="Missing不想睡" url="https://hugo-missingid.vercel.app/" logo="https://hugo-missingid.vercel.app/img/avatar.jpg" word="和我一起做赛博宵夜吧!">}}
 
-{{< friend name="蝴蝶曾在此处ウ" url="https://write.c7.io/tyou/" logo="https://files.steamedbread.pro/accounts/avatars/111/736/388/380/153/235/original/d032a02211aef199.jpeg" word="Strength can be built.">}}
+{{< friend name="蝴蝶曾在此处" url="https://write.c7.io/tyou/" logo="https://files.steamedbread.pro/accounts/avatars/111/736/388/380/153/235/original/d032a02211aef199.jpeg" word="Strength can be built.">}}
 
 {{< friend name="Mengru" url="https://mengru.space/" logo="https://mengru.space/pages/avatar.png" word="Mengru在互联网上的小小角落。">}}
 
