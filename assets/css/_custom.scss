@@ -10,3 +10,19 @@
     font-family: 'Noto Serif SC','Noto Serif KR', serif;
     src: url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&family=Noto+Serif+SC&display=swap');
   }
+
+
+/* 在全局CSS文件中定义变量 */
+
+:root {
+  --blur-color-light: #161209; /* 默认的高斯模糊颜色（亮色模式） */
+  --blur-color-dark: #b1b1ba; /* 暗色模式下的高斯模糊颜色 */
+}
+
+[data-theme='dark'] {
+  --blur-color: var(--blur-color-dark);
+}
+
+[data-theme='light'] {
+  --blur-color: var(--blur-color-light);
+}

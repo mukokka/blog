@@ -1,0 +1,16 @@
+<!-- layouts/shortcodes/blur-text.html -->
+<style>
+    .blur {
+        color: transparent;
+        text-shadow: 0px 0px 8px var(--blur-color);
+    }
+    
+    .blur:hover {
+        color: transparent;
+        text-shadow:0px 0px 0px var(--blur-color);
+    }
+    </style>
+    
+    <span class="blur">{{ .Inner }}</span>
+    
+    
