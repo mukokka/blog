@@ -21,13 +21,6 @@ hasCJKLanguage = true
     [menu.main.params]
       icon = "fa-solid fa-archive"
   [[menu.main]]
-    name = "书架"
-    url = "https://docs.iceco.icu/#/read/list"
-    title = ""
-    weight = 30
-    [menu.main.params]
-      icon = "fa-regular fa-chart-bar fa-fw"
-  [[menu.main]]
     identifier = "tags"
     pre = ""
     post = ""
@@ -37,6 +30,21 @@ hasCJKLanguage = true
     weight = 40
     [menu.main.params]
       icon = "fa-solid fa-users"
+  [[menu.main]]
+    parent = "归档"
+    name = "分类"
+    url = "/categories/"
+    weight = 1
+  [[menu.main]]
+    parent = "归档"
+    name = "书架"
+    weight = 3
+    url = "https://docs.iceco.icu/#/read/list"
+  [[menu.main]]
+    parent = "归档"
+    name = "画板"
+    weight = 2
+    url = "/draw/"
 
 # -------------------------------------------------------------------------------------
 # Theme Core Configuration Settings
