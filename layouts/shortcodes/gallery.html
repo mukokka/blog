@@ -3,7 +3,7 @@
 {{- $files := readDir (print "/static/" .) }}
 <div class="gallery-photos">
   {{- range (sort $files "Name" "desc") -}}
-    {{- if ( .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl|JPG|PNG)") }}
+    {{- if ( .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl|JPG|PNG|GIF)") }}
     {{- $linkURL := print $baseURL "/" ($.Get 0) "/" .Name | absURL }}
     <div class="gallery-photo">
       <img class="photo-img" loading='lazy' decoding="async" src="{{  $linkURL  }}" alt="{{ .Name }}" />
