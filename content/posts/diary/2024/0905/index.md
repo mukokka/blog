@@ -3,6 +3,7 @@ title: "스물 다섯"
 date: 2024-09-05
 draft: false
 toc: true
+comment: false
 categories: ["记忆面包机"]
 lightgallery: true
 
