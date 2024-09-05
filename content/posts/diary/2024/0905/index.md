@@ -5,7 +5,7 @@ draft: false
 toc: true
 comment: false
 categories: ["记忆面包机"]
-lightgallery: true
+lightgallery: false
 
 ---
 
