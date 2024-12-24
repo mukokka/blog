@@ -217,7 +217,7 @@ hasCJKLanguage = true
     [params.home.posts]
       enable = true
       # special amount of posts in each home posts page
-      paginate = 100
+      paginate = 10
 
   # FixIt 0.2.16 | CHANGED Social config about the author
   [params.social]

@@ -26,23 +26,23 @@ url: "/posts/diary/diary-2207"
 
 ### 书影
 
-{{< douban src="https://book.douban.com/subject/34464685/" >}}
+{{< neodb "https://neodb.social/book/36uoE3r3N0bQWSTdIoksw4" >}}
 
 进行一些思想解放运动。国家机器这个概念应该被写进小学义务教务的课本，但显然不可能，学校作为意识形态国家机器最重要的一环，存在的价值就在于稳定统治阶级的统治、宣扬统治阶级的意志，怎么会说真话。
 
-{{< douban src="https://book.douban.com/subject/25897884/" >}}
+{{< neodb "https://neodb.social/book/5TgwO2UrhEXyJKGlXAiSol" >}}
 
 六个倒叙的故事都很好看，但是我不太了解香港的历史，所以好像也只是当六个故事来看了。我最喜欢第一篇，因为把我骗的很彻底= =！其他的推理也都很精彩，没有那种到最后几页才揭晓的隐藏线索。《泰美斯的天秤》那一篇提到公义女神需要蒙眼、天秤和剑来维护公义，但什么样的剑才能把不公送上天平啊……
 
-{{< douban src="https://book.douban.com/subject/35328927/" >}}
+{{< neodb "https://neodb.social/book/35Lc6IgREeHjevIYAPwpxx" >}}
 
 较为无聊的小说，读完简介等于看完全部剧情，不过语言还算有趣。
 
-{{< douban src="https://book.douban.com/subject/35523099/" >}}
+{{< neodb "https://neodb.social/book/19mPNEJd68DbC2nRX3Dnfi" >}}
 
 和自己和解，个人的就是政治的！女性主义是可以起于私愤的，也不等于厌男。
 
-{{< douban src="https://movie.douban.com/subject/35465741/" >}}
+{{< neodb "https://neodb.social/tv/season/71HcaOkE4VqNcStjwzMC8Z" >}}
 
 今天才开始看，不过勉强放在这里。
 

@@ -24,17 +24,17 @@ Docsify默认的配色好清凉，我非常非常的喜欢...（？）所以虽�
 
 ### 本月读书
 
-{{< douban src="https://book.douban.com/subject/35764762/" >}}
+{{< neodb "https://neodb.social/book/5JwqBQfy5PUr44U8UM9IOl" >}}
 
 路德维克是个可怜人，遭到迫害之后本能地把所有人放进“脑海中的大厅”进行假想的考验，而路德维克旧友说：“我们之间的鸿沟比我所想象的还要深，深到我们甚至无法把话说完的地步。”
 
 开着上帝视角的我完全理解路德维克，甚至现实中也有这么做的倾向。假想的考验并不公平，但历史都开起玩笑了，还要在乎这个考验是否公平吗？
 
-{{< douban src="https://book.douban.com/subject/36077941/" >}}
+{{< neodb "https://neodb.social/book/1KUXQ8VjretsjdjVUfTdSO" >}}
 
 赫拉利真的好会讲故事啊！问句都好精彩。
 
-{{< douban src="https://book.douban.com/subject/26362836/" >}}
+{{< neodb "https://neodb.social/book/4RcTj1AilRVONB8RIKJSVA" >}}
 
 竟然和人类简史最后一章衔接上了（虽然本意并非如此）。“我是想便聪明。她说他们没有权利让我便聪明。”好残忍的故事，人类真的太傲慢了。
 
@@ -44,7 +44,8 @@ Docsify默认的配色好清凉，我非常非常的喜欢...（？）所以虽�
 
 十月的剋泡很精彩，但我竟然在十月底跑去看202，真是..legend...
 
-{{< douban src="https://movie.douban.com/subject/27000583/" >}}
+{{< neodb "https://neodb.social/tv/season/5lahHKr9EEGVFN5gxKETh7" >}}
+
 
 以前我追星还没有那么博爱，基本上只关注我担，所以虽然久仰202大名但没看过。最近在五代总是看到一些“曾参加202”的介绍，我寻思，202到底有多大的魔力啊，于是带着已经认识很多人的自信、上帝视角、冷漠的心点开了202。
 

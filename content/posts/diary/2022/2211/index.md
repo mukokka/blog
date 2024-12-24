@@ -17,7 +17,7 @@ url: "/post/diary/2211"
 
 ### 本月读书
 
-{{< douban src="https://book.douban.com/subject/34856710/" >}}
+{{< neodb "https://neodb.social/book/4Ea1EtVgAkASudiTpHZt3D" >}}
 
 因为[无意义读书会](https://book.mantyke.icu/)发起的共读活动而看了这本书。我真的很好奇别人读书的时候都读到了什么，我自己的话几乎完全被“选择性认知”支配——看小说如此，看政治经济学类的书更如此，不求甚解，比如读《可能性的艺术》也会比起瑞典更关心委内瑞拉。
 

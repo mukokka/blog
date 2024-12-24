@@ -4,10 +4,11 @@
   padding: 20px;
   position: relative;
   text-align: center;
-  color: initial;
+  color: $global-font-color;
   background:none;
   width: 94%;
   [data-theme='dark'] & {
+    color: $global-font-color-dark;
     border-top-color: $global-border-color-dark;
     background:none;
   }

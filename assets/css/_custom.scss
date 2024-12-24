@@ -15,8 +15,8 @@
 /* 在全局CSS文件中定义变量 */
 
 :root {
-  --blur-color-light: #161209; /* 默认的高斯模糊颜色（亮色模式） */
-  --blur-color-dark: #b1b1ba; /* 暗色模式下的高斯模糊颜色 */
+  --blur-color-light: #5a2a1a; /* 默认的高斯模糊颜色（亮色模式） */
+  --blur-color-dark: #e8ddd1; /* 暗色模式下的高斯模糊颜色 */
 }
 
 [data-theme='dark'] {
@@ -26,3 +26,101 @@
 [data-theme='light'] {
   --blur-color: var(--blur-color-light);
 }
+//鼠标指针自定义
+body{cursor:url(/images/Pock.cur), default;} //默认时的鼠标样式
+a:hover{cursor:url(/images/Pockycrunchypink.cur), pointer;} //指向链接时的鼠标样式
+
+/* db-card -------- start */
+.db-card {
+  margin: 2.5rem 2.5rem;
+  background: var(--color-codebg);
+  border-radius: 7px;
+  box-shadow: 0 6px 10px 0 #00000053;
+}
+
+.db-card-subject {
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.6;
+  padding: 12px;
+  position: relative;
+}
+
+.dark .db-card {
+  background: var(--color-codebg);
+}
+
+.db-card-content {
+  flex: 1 1 auto;
+}
+
+.db-card-post {
+  width: auto;
+  margin-right: 15px;
+  display: flex;
+  flex: 0 0 auto;
+}
+
+.db-card-title {
+  margin-bottom: 3px;
+  font-size: 15px;
+  color: var(--card-text-color-main);
+  font-weight: bold;
+}
+
+.db-card-title a {
+  text-decoration: none!important;
+}
+
+.db-card-abstract,
+.db-card-comment {
+  font-size: 13px;
+  overflow: auto;
+  max-height: 6rem;
+  color: var(--card-text-color-main);
+}
+
+.db-card-cate {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #c7e1c3;
+  [data-theme='dark'] & {
+    background: #61835c;
+  }
+  padding: 1px 8px;
+  font-size: small;
+  font-style: italic;
+  border-radius: 0 8px 0 8px;
+  text-transform: capitalize;
+}
+
+.db-card-post img {
+  width: auto;
+  height: 120px!important;
+  border-radius: 4px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .db-card {
+      margin: 0.8rem 1rem;
+  }
+
+  .db-card-comment {
+      display: none;
+  }
+
+  .db-card-title {
+      font-size: 13px;
+  }
+  .rating {
+      font-size: 12px;
+  }
+  .db-card-abstract,
+.db-card-comment {
+  font-size: 11px;
+}
+}
+/* db-card -------- end */

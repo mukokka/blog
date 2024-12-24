@@ -4,12 +4,13 @@
   padding:5px;
   position: relative;
   text-align: center;
-  color: initial;
+  color: $global-font-color;
   font-size: 1.125rem;
   background:none;
   [data-theme='dark'] & {
     border-top-color: $global-border-color-dark;
     background:none;
+    color: $global-font-color-dark;
   }
 
   &::after,
