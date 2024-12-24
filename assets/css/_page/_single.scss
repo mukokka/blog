@@ -152,10 +152,6 @@
     b,
     strong {
       font-weight: bold;
-
-      [data-theme='dark'] & {
-        color: #ddd;
-      }
     }
 
     @include link(false, false);

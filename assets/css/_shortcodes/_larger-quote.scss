@@ -8,9 +8,9 @@
   font-size: 1.125rem;
   background:none;
   [data-theme='dark'] & {
+    color: $global-font-color-dark;
     border-top-color: $global-border-color-dark;
     background:none;
-    color: $global-font-color-dark;
   }
 
   &::after,
