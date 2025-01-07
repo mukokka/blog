@@ -57,7 +57,6 @@ posts = []
 start_date = datetime.now() - timedelta(days=372)
 end_date = datetime.now() - timedelta(days=7)
 
-# 提取并清理内容
 for item in data.get('orderedItems', []):
     if 'object' in item and 'content' in item['object'] and 'published' in item:
         content = item['object']['content']
