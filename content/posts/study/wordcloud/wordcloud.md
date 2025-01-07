@@ -1,10 +1,11 @@
 ---
-title: 嘟文词云生成指北 （co author: ChatGPT）
+title: "嘟文词云生成指北 （co author: ChatGPT）"
 date: 2025-01-07
 draft: false
 toc: true
 categories: ["공부 해야돼"]
 lightgallery: true
+
 ---
 
 让chatgpt大师写了利用嘟文存档生成词云的代码，让我们一起说谢谢gpt大师
